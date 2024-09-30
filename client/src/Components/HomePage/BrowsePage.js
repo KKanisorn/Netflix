@@ -78,7 +78,7 @@ export default function BrowsePage() {
                         More Info
                     </button>
                 </div>
-                <div className=" absolute bottom-10 right-[10rem] border-2 flex items-center justify-center rounded-full p-1.5 ">
+                <div className="absolute bottom-[9.7rem] right-[3rem] border-2 flex items-center justify-center rounded-full p-1.5 ">
                     {!mute && <button type="button" onClick={() => setMute(!mute)}>
                         <svg className="w-6 h-6 text-white" aria-hidden="true"
                              xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
